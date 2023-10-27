@@ -138,7 +138,7 @@ useEffect(() => {
       console.log(response.status);
       console.log(response.data);
     });
-    navigate("/login");
+    navigate("/qlogin");
   };
 
   return (
