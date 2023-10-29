@@ -16,18 +16,19 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Container = styled.table`
-    width: 100%;
+    width: 90%;
     height:80vh;
+    margin:5%;
     border-collapse: collapse;
     text-align: center;
     border-radius:8px;
     overflow: hidden;
-    background-color:#F5F2FC;
+    // background-color:#F5F2FC;
 `;
-const Wrapper = styled.caption`
-width:90%;
-margin:5%;
-`
+// const Wrapper = styled.caption`
+// width:90%;
+// margin:5%;
+// `
 const Button = styled.button`
 background-color:#EEEEEE;
 color:#393E46;
@@ -108,7 +109,7 @@ const Dashboard = (CUId) => {
     <>
       <LoginNavbar />
       <Container>
-        <Wrapper>
+        {/* <Wrapper> */}
           <Popup
             trigger={<CreateButton >Create Exam </CreateButton>}
             modal
@@ -168,7 +169,7 @@ const Dashboard = (CUId) => {
               </TableBody>
             </Table>
           </TableContainer>
-        </Wrapper>
+        {/* </Wrapper> */}
       </Container>
       <ToastContainer />
     </>

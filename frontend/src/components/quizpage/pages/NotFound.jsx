@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Container = styled.div`
+// const Container = styled.div`
 // height:100vh;
 // background: #1A1A1A;
 // font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -22,10 +22,12 @@ const Container = styled.div`
 //   bottom: 330px;
 // }
 // }
-`
+// `
 const NotFound = () => {
     return (
-        <Container/>
+        // <Container/>
+        <>
+        </>
     )
 }
 
