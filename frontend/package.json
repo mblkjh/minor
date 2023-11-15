@@ -38,6 +38,7 @@
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "styled-components": "^4.4.1",
+    "swiper": "^11.0.4",
     "uuid": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
