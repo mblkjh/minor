@@ -145,8 +145,7 @@
   }
   .input-box i{
     position: absolute;
-    color:red;
-    /* color: #B05FF8; */
+    color: #B05FF8;
     font-size: 17px;
   }
   .text{
