@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
-import "../../App.css";
+import "./mypost.css";
 
 const Mypost = () => {
   const [posts, setPosts] = useState([]);
@@ -41,7 +41,7 @@ const Mypost = () => {
           <p>No posts to display</p>
         ) : (
           posts.map((post) => (
-            <div key={post.post_id} className="post-card">
+            <div key={post.post_id}>
               <h2 className="post-title">{post.Topic}</h2>
               <div className="post-details">
                 <p>
