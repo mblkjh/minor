@@ -4,6 +4,7 @@ import "./Ssignup.css";
 import {Button} from "./Button";
 import logo from "../../images/logo_fly.png";
 import Navbar from './Snav';
+import Footer from "../mainpage/footer";
 
 const Ssignup = () => {
 
@@ -106,7 +107,7 @@ const Ssignup = () => {
     </div>
     <Button className="btn_l">Apply Now</Button>
     </div>
-    
+    <Footer/>
     </>
   )
 }
