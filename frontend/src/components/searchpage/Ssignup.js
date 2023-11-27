@@ -14,12 +14,14 @@ const Ssignup = () => {
     <div className='topic'>
       <div className='text_t'>Frontend Developer</div>
     </div>
+
     <div className='container_t'>
     <div className='main'>
       <div className='post_m'>
       <div className='logo'>
         <img src={logo} alt="image"></img>
       </div>
+
       <div className='post'>
         <h3 className='post_r'></h3>
         <span className='role'>Frontend Developer</span>
@@ -30,18 +32,17 @@ const Ssignup = () => {
         <span className='loc'>Banglore,Hyderabad,Noida</span> 
       </div> 
     </div>
+
     <div className='details'>
       <div className='other_d'>
         <div className='startD_c'>
           <div className='startD'>
           <i className="zmdi zmdi-time material-icons-name "></i>
             <span className='startHead'>Start Date</span>
-            
           </div>
           <div className='start_d'>
           <div className='start_date'>Immediately</div>
           </div>
-         
         </div>
         <div className='startD_c'>
           <div className='startD'>
@@ -51,9 +52,9 @@ const Ssignup = () => {
           <div className='start_d'>
           <div className='start_date'>2 months</div>
           </div>
-          
         </div>
       </div>
+
       <div className='other_d'>
         <div className='startD_c'>
           <div className='startD'>
@@ -63,11 +64,11 @@ const Ssignup = () => {
           <div className='start_d'>
           <div className='start_date'>50,000 per month</div>
           </div>
-         
         </div>
       </div>
     </div>
     </div>
+    
     <div className='main_content'>
       <div className='about'>About Company</div>
       <div className='compC'>Fly High opened for business on the 3rd of January 2012 to give customers a wide selection of amazingly priced furniture, home, and living products, and a consistently great shopping experience. We are a managed marketplace working closely with nearly a thousand merchant partners to showcase their design skills, craftsmanship, and service orientation to customers across India and the world. Fly High is today India's no. 1 online furniture, home, and living destination, offering products across categories like furniture, home decor, furnishings, kitchen and dining, housekeeping, fitness, leisure, and pet supplies.</div>

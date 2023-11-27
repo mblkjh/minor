@@ -35,7 +35,10 @@ const Snav = () => {
           </ul>
         </li> */}
         <li className="nav-item">
-          <NavLink className="nav-link" to="/ssignup">Messages</NavLink>
+          <NavLink className="nav-link" to="/ssignup">Apply</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/messaa">Messages</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/slogin">Login/Signup</NavLink>

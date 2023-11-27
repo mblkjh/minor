@@ -53,6 +53,7 @@
   
   .main{
     height:33vh;
+    margin-bottom: 3%;
   }
   
   .post_m{
@@ -137,13 +138,12 @@
   
   .main .details{
     display: flex;
-    height: 10vh;
   }
   
   .other_d{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0;
+    padding-top: 25rem;
   }
   
   .startD_c{
@@ -163,12 +163,9 @@
 
   .startD i{
     color: #8A8A8A;
-    margin-top: -64.8rem;
-    /* margin:2px; */
   }
   
   .startHead{
-    margin-top: -65rem;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: .5px;
@@ -176,21 +173,14 @@
     text-transform: uppercase;
     color: #8A8A8A;
     display: flex;
-    /* font-family: sans-serif; */
     font-weight: 500;
     margin-right: 24px;
-  
   }
   .start_date{
-   
     display: flex;
     align-items: center;
     margin-top: 5px;
   }
-  .start_d{
-    margin-top: -64rem;
-  }
-
   .about{
     font-size:18px;
     font-weight: 500;
@@ -222,4 +212,27 @@
     margin-right: 16px;
     margin-bottom: 8px;
     line-height: 16px;
+  }
+
+  .btn-1{
+    background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  }
+  .btn-2{
+    background-color: red;
+  border: none;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px;
   }

@@ -46,9 +46,10 @@ const Post = () => {
         <Routing />
       </UserContext.Provider>
 
-      {/* <ChatProvider>
+    <ChatProvider>
     <Messag />
-  </ChatProvider> */}
+  </ChatProvider>
+
     </>
   );
 };
