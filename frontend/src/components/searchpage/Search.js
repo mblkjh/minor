@@ -4,6 +4,7 @@ import Smessages from "../searchpage/Smessages";
 import Shome from "../searchpage/Shome";
 import Slogin from "../searchpage/Slogin";
 import Ssignup from "../searchpage/Ssignup";
+import Slogout from "../searchpage/Slogout";
 import { ThemeProvider } from "styled-components";
 import SHomepage from "../postpage/Pages/SHomePage";
 // import "../../App.css";
@@ -42,6 +43,7 @@ const Search = () => {
           <Route path="/smessages" element={<Smessages />} />
           <Route path="/messaa" element={<SHomepage />} />
           <Route path="/ssignup" element={<Ssignup />} />
+          <Route path="/slogout" element={<Slogout />} />
         </Routes>
       </ThemeProvider>
     </>

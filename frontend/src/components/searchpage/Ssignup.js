@@ -5,6 +5,7 @@ import {Button} from "./Button";
 import logo from "../../images/logo_fly.png";
 import Navbar from './Snav';
 import Footer from "../mainpage/footer";
+import { NavLink } from 'react-router-dom';
 
 const Ssignup = () => {
 
@@ -106,7 +107,7 @@ const Ssignup = () => {
             <div className='skilltab'>Node</div>
            </div>
     </div>
-    <Button className="btn_l">Apply Now</Button>
+    <button className='btn_k'><NavLink to="/slogout">Apply Now</NavLink></button>
     </div>
     <Footer/>
     </>

@@ -13,6 +13,7 @@ import Swiper from "swiper";
 import "swiper/css";
 import Navbar from "./Snav";
 import $ from "jquery";
+import { NavLink } from "react-router-dom";
 
 const Shome = () => {
   useEffect(() => {
@@ -53,7 +54,7 @@ const Shome = () => {
             create. Scale your dreams into reality with our collaborative
             platform .<br />
           </h3>
-          <Button className="btn_l">Know More</Button>
+          <button className='btn_h'><NavLink to="/slogin">Know More</NavLink></button>
         </div>
         <section className="slider-container">
           <div className="slider-images">

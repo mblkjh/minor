@@ -32,7 +32,8 @@ const Listview = ({ /*opportunities*/ }) => {
                 </p>
 
                 {/* <NavLink to={`/singleproduct/${id}`} className="btn-main"> */}
-                  <Button className="btn">Read More</Button>
+                  {/* <Button className="btn">Read More</Button> */}
+                  <button className='btn_o'><NavLink to="/ssignup">Read More</NavLink></button>
                   {/* <NavLink to="/ssignup">Get Started</NavLink> */}
                 {/* </NavLink> */}
               </div>
